@@ -94,7 +94,7 @@ public class HomePageTest {
 
     @Test
     public void employersLink(){
-        driver.findElement(By.xpath("//*[@id=\"gatsby-wrapper\"]/header/div[4]/nav/div/div[3]/div/div/a")).click();
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[3]/div/div/a")).click();
     }
 
 
