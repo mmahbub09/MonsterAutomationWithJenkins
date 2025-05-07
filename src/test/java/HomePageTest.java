@@ -68,16 +68,36 @@ public class HomePageTest {
 
 
     @Test
-    public void SalaryToolsLinkTest(){
+    public void salaryToolsLinkTest(){
         driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[2]/a")).click();
     }
 
 
 
     @Test
-    public void CareerAdviceLink(){
+    public void careerAdviceLink(){
         driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[3]/a")).click();
     }
+
+
+    @Test
+    public void resumeHelpLink(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[4]/a")).click();
+    }
+
+
+    @Test
+    public void uploadResumeLink(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-focus-wrapper\"]/header/div[4]/nav/div/div[2]/ul/li[5]/a")).click();
+    }
+
+
+    @Test
+    public void employersLink(){
+        driver.findElement(By.xpath("//*[@id=\"gatsby-wrapper\"]/header/div[4]/nav/div/div[3]/div/div/a")).click();
+    }
+
+
 
 
     @AfterMethod
